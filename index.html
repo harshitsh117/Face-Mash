@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Face mash</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+
+<body>
+
+    <div class="instructions-container" id="instructions-container">
+        <h2>Face Mash</h2>
+        <div class="instructions-box">
+            <h1>Instructions/About</h1>
+            <ul>
+                <li>In this game you will have two photos.</li>
+                <li>From this two photos you will have to chose which one you like the most by clicking on them.</li>
+                <li>After you have clicked, the image you clicked will stay and other one will be replaced with new
+                    photo.</li>
+                <li>This process will go on till you have chosed from all the photos.</li>
+                <li>Lastly remaining photo will be declared as WINNER.</li>
+            </ul>
+            <button class="instructions-close-button" id="instructions-close-button">Start Playing</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Who's hotter? Click to choose.</h1>
+        <div class="img-container">
+            <div class="indi-img-container">
+                <button class="img-button">
+                    <img src="/static/images/1.jpg" alt="" class="img" id="btn1">
+                </button>
+            </div>
+            <div class="indi-img-container">
+                <button class="img-button">
+                    <img src="/static/images/2.jpg" class="img" alt="" id="btn2">
+                </button>
+            </div>
+        </div>
+        <!-- Winner Declaration -->
+        <div class="popup-container" id="popup-container">
+            <div class="popup">
+                <div class="winner-content">
+                    <h1>Winner</h1>
+                    <img src="/static/images/1.jpg" alt="" id="winning-img">
+                </div>
+               <a href="/"> <button id="popup-close-button">Play Again</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="rotate-phone-container" id="rotate-phone-container">
+        <div class="content">
+            <div class="heading">
+                <h5>Rotate Phone</h5>
+                <button id="rotate-close-button">X</button>
+            </div>
+            <!-- <hr> -->
+            <div class="img-container">
+                <img src="./static/images/smartphone-call.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="/static/js/index.js"></script>
+
+</html>
