@@ -45,7 +45,11 @@ h1{
     border: none;
     height: 203px;
     width: 210px
+}
 
+.img-button:active
+{
+    transform: translateY(4px);
 }
 
 .img-button:hover
@@ -213,6 +217,13 @@ h1{
 {
     cursor: pointer;
 }
+#instructions-close-button:active
+{
+    background-color: white;
+    color: black;
+}
+
+
 
 .modal.show
 {
